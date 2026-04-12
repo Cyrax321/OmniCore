@@ -12,5 +12,11 @@ Welcome to **NeuroForge**, an exclusive repository dedicated to the exploration 
 - **`model-upgrade.py`** — Dynamic model enhancement, fine-tuning, and scaling logic.
 - **`model_conditions.py`** — Condition evaluation, state validation, and constraints formulation.
 
+## 📂 Data Structures & Pipelines
+
+- **`ds/data-cleaner.py`** — Utilities for pre-processing and scrubbing datasets before feeding them to the models.
+- **`ds/dict.py`** — Dictionaries and structured feature maps demonstrations.
+- **`ds/list.py`** — List manipulation patterns for batching and scaling array data.
+
 ---
 *Maintained securely. Private access only.*
