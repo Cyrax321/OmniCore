@@ -18,6 +18,13 @@ EXAMPLES:
 1) Input: points = [[1, 3], [-2, 2]], target = [0, 0], k = 1
    Expected: [[-2, 2]]
    Reason: Dist to [1, 3] is sqrt(10) = 3.16. Dist to [-2, 2] is sqrt(8) = 2.82. [-2, 2] is closer!
+HOW TO THINK ABOUT THIS:
+1. You need to calculate the distance from every point in the list to the target point.
+2. Create a list of tuples or sub-lists where each element looks like: `(distance, point)`.
+3. Loop through `points`, compute the Euclidean distance to `target`, and append it to your list.
+4. Sort this new list. Since the distance is the first element, Python will sort by distance automatically!
+5. Extract and return just the `point` coordinates from the first `k` elements of your sorted list.
+
 """
 import math
 
