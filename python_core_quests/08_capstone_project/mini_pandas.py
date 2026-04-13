@@ -29,6 +29,17 @@ HOW TO THINK ABOUT THIS:
 4. `filter_greater_than` is the tricky one. First, find all the *indices* in the target column where the value is greater than `value`.
 5. Then, construct a brand new dictionary, looping over all keys in `self.data`, and building a new list containing only the elements at those valid indices.
 
+CODING STEPS FOR BEGINNERS:
+1. `class DataFrame:`
+2. `def __init__(self, data_dict): self.data = data_dict`
+3. `def get_column(self, col_name):` Check `if col_name not in self.data: raise KeyError(...)`, else `return self.data[col_name]`
+4. `def mean(self, col_name):` Call `arr = self.get_column(col_name)`, return `sum(arr)/len(arr)`.
+5. `def filter_greater_than(self, col_name, value):`
+   - `col = self.get_column(col_name)`
+   - Find valid indices using comprehensions: `valid_idx = [i for i, x in enumerate(col) if x > value]`
+   - Build a new dict: `new_data = {}`
+   - For every key in `self.data`: `new_data[key] = [self.data[key][i] for i in valid_idx]`
+   - `return new_data`
 """
 
 # ==========================================
