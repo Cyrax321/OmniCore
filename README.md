@@ -1,8 +1,16 @@
-# OmniCore ⚡️
+<div align="center">
+  <h1>⚙️ OmniCore // Python AI-Curriculum</h1>
+  
+  [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+  [![AI Native](https://img.shields.io/badge/Agentic_IDE-Optimized-7B42BC.svg?style=for-the-badge&logo=openai&logoColor=white)](#the-2026-learning-methodology)
+  [![Status](https://img.shields.io/badge/Build-Passing-brightgreen.svg?style=for-the-badge)](#testing--telemetry)
+</div>
+
+---
 
 **OmniCore** is an accelerated, high-intensity curriculum repository designed to bridge the gap between foundational Python programming and advanced Machine Learning (ML) architecture. 
 
-It strips away the overhead of Jupyter Notebooks in favor of test-driven, raw Python executable quests—engineering your syntax into algorithmic intuition.
+It strips away the overhead of Jupyter Notebooks in favor of test-driven, raw Python executable quests—engineering your syntax natively into algorithmic intuition.
 
 ---
 
@@ -12,8 +20,8 @@ You cannot learn strict ML architecture using legacy tutorials. This codebase is
 
 To master Python for AI in record time, you must follow the Agentic Loop:
 
-1. **Clone & Load:** `git clone https://github.com/Cyrax321/NeuroForge.git` and open the directory inside an AI-optimized IDE.
-2. **Execute:** Run the curriculum files locally in your terminal (e.g., `python curriculum/01_beginner_fundamentals/...`).
+1. **Clone & Load:** `git clone https://github.com/Cyrax321/OmniCore.git` and open the directory inside an AI-optimized IDE.
+2. **Execute:** Run the curriculum files locally in your terminal (e.g., `python curriculum/01_beginner_fundamentals/01_variables_and_printing.py`).
 3. **Engage the Agent:** If you hit an algorithmic wall, encounter an assertion error from the internal test runner, or simply do not understand *why* a list comprehension behaves the way it does—**Do not Google it.** Highlight the code and command your AI agent to explain the logic, trace the error, and teach you the underlying concept directly inside your editor. 
 
 This repository acts as your physical training ground. Your AI IDE is your private tutor.
