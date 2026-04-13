@@ -27,6 +27,13 @@ HOW TO THINK ABOUT THIS:
 3. If it succeeds, check if the value we grabbed is `None`. If it is, forcefully trigger an error using `raise`.
 4. If it's valid, return it.
 
+CODING STEPS FOR BEGINNERS:
+1. Start `try:` block.
+2. Inside `try`, grab the item: `item = data[target_index]`
+3. If it's none (`if item is None:`), forcefully throw error: `raise ValueError("NULL_DETECTED")`
+4. If it is not none, just `return item`
+5. Outside the try, catch the specific failure: `except IndexError:`
+6. Inside the except block, `return "OUT_OF_BOUNDS"`
 """
 
 def solve(data, target_index):
