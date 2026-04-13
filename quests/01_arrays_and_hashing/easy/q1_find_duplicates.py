@@ -17,6 +17,13 @@ EXAMPLES:
    Expected: False
 3) Input: [1, 1, 1, 3, 3, 4, 3, 2, 4, 2]
    Expected: True
+HOW TO THINK ABOUT THIS:
+1. The naive approach is a nested loop (compare every item with every other item) -> O(N^2) time.
+2. An optimal approach uses a Hash Set. 
+3. As you iterate through the list, ask: "Have I seen this number before?"
+4. If it's already in the set, you found a duplicate! Return True.
+5. If not, add it to the set and keep going.
+
 """
 
 def solve(data):
