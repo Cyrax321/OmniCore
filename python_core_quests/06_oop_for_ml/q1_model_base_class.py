@@ -23,6 +23,11 @@ model.predict()   -> "Model must be trained first!"
 model.fit([1, 2]) -> "Training Complete"
 model.predict()   -> "Predicting based on 2 records"
 
+HOW TO THINK ABOUT THIS:
+1. Object Oriented Programming (OOP) allows us to bind variables (state) and functions (behavior) into a single blueprint called a Class.
+2. The `__init__` function gives the Object its default stats the moment it is born.
+3. Every function inside a class takes `self` as the first argument, which is how it modifies its own variables!
+
 """
 
 # ==========================================
