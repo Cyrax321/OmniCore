@@ -52,17 +52,17 @@ if __name__ == "__main__":
     passed = 0
     try:
         if practice_one(20) == "Adult" and practice_one(15) == "Minor":
-            print("✅ Practice 1 Passed! If/Else routing correctly.")
+            print("🌸 Practice 1 Passed! If/Else routing correctly.")
             passed += 1
-        else: print("❌ Practice 1 Failed. Be sure to check age >= 18")
+        else: print("(╥﹏╥) Practice 1 Failed. Be sure to check age >= 18")
     except Exception: pass
 
     try:
         if practice_two("Secret123") == True and practice_two("password") == False:
-            print("✅ Practice 2 Passed! String equality checking correctly.")
+            print("🌸 Practice 2 Passed! String equality checking correctly.")
             passed += 1
-        else: print("❌ Practice 2 Failed.")
+        else: print("(╥﹏╥) Practice 2 Failed.")
     except Exception: pass
     
     if passed == 2:
-        print("\n🎉 AWESOME! Making choices in code is officially unlocked.")
+        print("\n✨ AWESOME! Making choices in code is officially unlocked.")

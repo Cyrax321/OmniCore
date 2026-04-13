@@ -61,11 +61,11 @@ if __name__ == "__main__":
             result = solve(test["input"][0], test["input"][1])
             # We use sets for comparison as order doesn't matter
             if result is not None and set(result) == test["expected"]:
-                print(f"✅ Test {i+1} Passed!")
+                print(f"🌸 Test {i+1} Passed!")
                 passed += 1
             else:
-                print(f"❌ Test {i+1} Failed. Expected elements {test['expected']}, got {result}")
+                print(f"(╥﹏╥) Test {i+1} Failed. Expected elements {test['expected']}, got {result}")
         except Exception as e:
-            print(f"⚠️ Test {i+1} Error: {e}")
+            print(f"(・_・;) Test {i+1} Error: {e}")
             
     print(f"\nScore: {passed}/{len(tests)}")

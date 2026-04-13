@@ -51,11 +51,11 @@ if __name__ == "__main__":
         try:
             result = solve(test["input"])
             if result is not None and result == test["expected"]:
-                print(f"✅ Test {i+1} Passed!")
+                print(f"🌸 Test {i+1} Passed!")
                 passed += 1
             else:
-                print(f"❌ Test {i+1} Failed. Expected {test['expected']}, got {result}")
+                print(f"(╥﹏╥) Test {i+1} Failed. Expected {test['expected']}, got {result}")
         except Exception as e:
-            print(f"⚠️ Test {i+1} Error: {e}")
+            print(f"(・_・;) Test {i+1} Error: {e}")
             
     print(f"\nScore: {passed}/{len(tests)}")

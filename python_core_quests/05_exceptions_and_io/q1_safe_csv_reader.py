@@ -65,19 +65,19 @@ if __name__ == "__main__":
             result = solve(test["input"][0], test["input"][1])
             if not test["error"]:
                 if result == test["expected"]:
-                    print(f"✅ Test {i+1} Passed!")
+                    print(f"🌸 Test {i+1} Passed!")
                     passed += 1
                 else:
-                    print(f"❌ Test {i+1} Failed. Expected {test['expected']}, got {result}")
+                    print(f"(╥﹏╥) Test {i+1} Failed. Expected {test['expected']}, got {result}")
             else:
-                print(f"❌ Test {i+1} Failed. Forgot to RAISE a ValueError!")
+                print(f"(╥﹏╥) Test {i+1} Failed. Forgot to RAISE a ValueError!")
         except ValueError as e:
             if test["error"] and str(e) == test["expected"]:
-                print(f"✅ Test {i+1} Passed! (Properly raised '{e}')")
+                print(f"🌸 Test {i+1} Passed! (Properly raised '{e}')")
                 passed += 1
             else:
-                print(f"❌ Test {i+1} Failed. Expected ValueError '{test['expected']}', got '{str(e)}'")
+                print(f"(╥﹏╥) Test {i+1} Failed. Expected ValueError '{test['expected']}', got '{str(e)}'")
         except Exception as e:
-            print(f"⚠️ Test {i+1} Error: {e}")
+            print(f"(・_・;) Test {i+1} Error: {e}")
             
     print(f"\nScore: {passed}/{len(tests)}")

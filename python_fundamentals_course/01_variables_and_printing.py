@@ -54,22 +54,22 @@ if __name__ == "__main__":
     try:
         res1 = practice_one()
         if res1 and len(res1) == 3 and type(res1[0]) == str and type(res1[1]) in [int, float] and type(res1[2]) == bool:
-            print("✅ Practice 1 Passed! You created all the correct variable types!")
+            print("🌸 Practice 1 Passed! You created all the correct variable types!")
             passed += 1
         else:
-            print("❌ Practice 1 Failed. Make sure you return a string, a number, and a boolean.")
+            print("(╥﹏╥) Practice 1 Failed. Make sure you return a string, a number, and a boolean.")
     except Exception as e:
-        print(f"⚠️ Practice 1 Error: {e}")
+        print(f"(・_・;) Practice 1 Error: {e}")
         
     try:
         res2 = practice_two()
         if res2 == "Hello World":
-            print("✅ Practice 2 Passed! You made a string correctly!")
+            print("🌸 Practice 2 Passed! You made a string correctly!")
             passed += 1
         else:
-            print(f"❌ Practice 2 Failed. Make sure you return exactly 'Hello World'. Got '{res2}'")
+            print(f"(╥﹏╥) Practice 2 Failed. Make sure you return exactly 'Hello World'. Got '{res2}'")
     except Exception as e:
-         print(f"⚠️ Practice 2 Error: {e}")
+         print(f"(・_・;) Practice 2 Error: {e}")
          
     if passed == 2:
-        print("\n🎉 AMAZING! You are ready for Lesson 2!")
+        print("\n✨ AMAZING! You are ready for Lesson 2!")

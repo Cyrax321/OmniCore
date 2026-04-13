@@ -44,14 +44,14 @@ if __name__ == "__main__":
     passed = 0
     try:
         if multiply(5, 5) == 25 and multiply(2, 3) == 6:
-            print("✅ Practice 1 Passed! You defined your own function and passed arguments.")
+            print("🌸 Practice 1 Passed! You defined your own function and passed arguments.")
             passed += 1
-        else: print("❌ Practice 1 Failed. Double check your math return.")
+        else: print("(╥﹏╥) Practice 1 Failed. Double check your math return.")
     except NameError:
-        print("❌ Error: A function named `multiply` doesn't exist. Did you spell it right?")
+        print("(╥﹏╥) Error: A function named `multiply` doesn't exist. Did you spell it right?")
     except Exception as e: 
-        print(f"⚠️ Practice 1 Error: {e}")
+        print(f"(・_・;) Practice 1 Error: {e}")
     
     if passed == 1:
-        print("\n🎉🎉🎉 CONGRATULATIONS! You have completed the foundation course! 🎉🎉🎉")
+        print("\n✨✨✨ CONGRATULATIONS! You have completed the foundation course! ✨✨✨")
         print("You are officially ready to tackle the python_core_quests folder!")
