@@ -24,6 +24,12 @@ HOW TO THINK ABOUT THIS:
 3. Within that first chunk, we want the number after the `: `
 4. Once we slice out `"404"`, it is still a string. We must convert it to an integer.
 
+CODING STEPS FOR BEGINNERS:
+1. Split the massive string by `" | "` and save it to a variable: `chunks = log.split(" | ")`
+2. Grab the first chunk (index 0): `first_chunk = chunks[0]`
+3. Split the first chunk by `": "`: `parts = first_chunk.split(": ")`
+4. The second of those two new parts is the number (index 1): `number_string = parts[1]`
+5. Convert to an int and return: `return int(number_string)`
 """
 
 def solve(log_string):
