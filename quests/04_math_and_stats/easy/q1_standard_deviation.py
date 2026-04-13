@@ -18,6 +18,12 @@ You may use `math.sqrt()`.
 EXAMPLES:
 1) Input: [2.0, 4.0, 4.0, 4.0, 5.0, 5.0, 7.0, 9.0]
    Expected: Approx 2.0
+PREREQUISITES TO STUDY:
+- Exponents in Python (`** 2`)
+- Appending items to arrays (`.append()`)
+- Iterating with variables
+- Importing libraries (`import math` and `math.sqrt()`)
+
 HOW TO THINK ABOUT THIS:
 1. Code this sequentially following the mathematical steps.
 2. Step A: Compute the mean by summing the array and dividing by its length.
