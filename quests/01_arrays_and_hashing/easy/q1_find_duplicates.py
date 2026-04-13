@@ -1,0 +1,54 @@
+"""
+=========================================================
+Quest: Find Duplicates (Data Cleaning)
+Topic: Arrays & Hashing
+Difficulty: Easy
+=========================================================
+
+INSTRUCTIONS:
+In ML datasets, duplicate data can bias your model. 
+Given an array of integers representing feature IDs, return True if any value 
+appears at least twice in the array, and return False if every element is distinct.
+
+EXAMPLES:
+1) Input: [1, 2, 3, 1]
+   Expected: True
+2) Input: [1, 2, 3, 4]
+   Expected: False
+3) Input: [1, 1, 1, 3, 3, 4, 3, 2, 4, 2]
+   Expected: True
+"""
+
+def solve(data):
+    # ==========================================
+    
+
+    # ==========================================
+    pass
+
+
+# ==========================================
+# TEST RUNNER (Do not modify anything below)
+# ==========================================
+if __name__ == "__main__":
+    tests = [
+        {"input": [1, 2, 3, 1], "expected": True},
+        {"input": [1, 2, 3, 4], "expected": False},
+        {"input": [1, 1, 1, 3, 3, 4, 3, 2, 4, 2], "expected": True},
+        {"input": [], "expected": False},
+        {"input": [89], "expected": False}
+    ]
+    
+    passed = 0
+    for i, test in enumerate(tests):
+        try:
+            result = solve(test["input"])
+            if result == test["expected"]:
+                print(f"✅ Test {i+1} Passed!")
+                passed += 1
+            else:
+                print(f"❌ Test {i+1} Failed. Expected {test['expected']}, got {result}")
+        except Exception as e:
+            print(f"⚠️ Test {i+1} Error: {e}")
+            
+    print(f"\nScore: {passed}/{len(tests)}")
