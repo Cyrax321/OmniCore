@@ -24,6 +24,15 @@ HOW TO THINK ABOUT THIS:
 3. For each pair of (actual, predicted), subtract them, square the result, and add to your total.
 4. Finally, divide the total error by the number of items 'N' to get the "Mean" Squared Error.
 
+CODING STEPS FOR BEGINNERS:
+1. Find total units: `n = len(actual)`
+2. Initialize sum tally: `total_error = 0`
+3. Loop through indices: `for i in range(n):`
+4. Inside the loop, find difference: `diff = actual[i] - predicted[i]`
+5. Square the difference: `squared_diff = diff ** 2`
+6. Add to your total tally: `total_error = total_error + squared_diff`
+7. Outside of the loop, compute final average: `mse = total_error / n`
+8. `return mse`
 """
 
 def solve(actual, predicted):
