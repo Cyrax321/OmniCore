@@ -25,6 +25,18 @@ HOW TO THINK ABOUT THIS:
 4. Sort this new list. Since the distance is the first element, Python will sort by distance automatically!
 5. Extract and return just the `point` coordinates from the first `k` elements of your sorted list.
 
+CODING STEPS FOR BEGINNERS:
+1. Create list: `distances = []`
+2. Loop through points: `for point in points:`
+3. Calculate Euclidean distance: 
+   `dx = point[0] - target[0]`
+   `dy = point[1] - target[1]`
+   `dist = math.sqrt(dx**2 + dy**2)`
+4. Add to list as a sub-list (distance first): `distances.append([dist, point])`
+5. Easy Python sort: `distances.sort()`
+6. Grab the first K items (slice): `top_k_items = distances[0:k]`
+7. List comprehension to get just the coordinates: `result = [item[1] for item in top_k_items]`
+8. `return result`
 """
 import math
 
