@@ -18,6 +18,12 @@ EXAMPLES:
 2) Input: "ERROR_CODE: 500 | MSG: CRASH | IP: 10.0.0.1"
    Expected: 500 (as an integer)
 
+HOW TO THINK ABOUT THIS:
+1. The string has different chunks separated by `" | "`.
+2. The exact chunk we care about is the first one: `"ERROR_CODE: 404"`.
+3. Within that first chunk, we want the number after the `: `
+4. Once we slice out `"404"`, it is still a string. We must convert it to an integer.
+
 """
 
 def solve(log_string):
