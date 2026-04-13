@@ -18,6 +18,12 @@ EXAMPLES:
 2) Input: x = 10, func_type = "linear"
    Expected: 10
 
+HOW TO THINK ABOUT THIS:
+1. We check `func_type` first.
+2. If it is "relu", we do an internal check: is `x` greater than 0? If so, give `x`, else give `0`.
+3. If it varies to "linear", we strictly give `x` as is.
+4. Finally, an `else` catch-all intercepts bad inputs.
+
 """
 
 def solve(x, func_type):
