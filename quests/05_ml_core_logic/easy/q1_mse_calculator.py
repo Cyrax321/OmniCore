@@ -18,6 +18,11 @@ EXAMPLES:
    Expected: 0.0 (Perfect prediction)
 2) Input: actual = [1.0, 2.0, 3.0], predicted = [0.0, 1.0, 2.0]
    Expected: 1.0
+PREREQUISITES TO STUDY:
+- Iterating using indices (`for i in range(len(array))`)
+- Accumulator variables updating iteratively (`total += new_value`)
+- Accessing dual list values concurrently by index
+
 HOW TO THINK ABOUT THIS:
 1. You are comparing two lists index by index. A `for` loop using `range(len(actual))` or the `zip(actual, predicted)` function is ideal here.
 2. Keep a running tally of your total error.
