@@ -22,6 +22,13 @@ Build a class `DataFrame`.
    - Returns a NEW dictionary representing only the rows where `col_name > value`.
    - E.g. `df.filter_greater_than("age", 22)` -> Returns data dict but indices 0 removed because age[0] is 20.
 
+HOW TO THINK ABOUT THIS:
+1. This combines basically everything from Quests 01 to 07!
+2. `get_column` is simple dictionary access + a Try/Except or `in` check.
+3. `mean()` is basic math and list aggregation.
+4. `filter_greater_than` is the tricky one. First, find all the *indices* in the target column where the value is greater than `value`.
+5. Then, construct a brand new dictionary, looping over all keys in `self.data`, and building a new list containing only the elements at those valid indices.
+
 """
 
 # ==========================================
