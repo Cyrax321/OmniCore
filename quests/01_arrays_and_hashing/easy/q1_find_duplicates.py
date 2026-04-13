@@ -17,6 +17,11 @@ EXAMPLES:
    Expected: False
 3) Input: [1, 1, 1, 3, 3, 4, 3, 2, 4, 2]
    Expected: True
+PREREQUISITES TO STUDY:
+- Python Sets (`set()`, `.add()`, `in` syntax)
+- For loops iterating through arrays
+- Basic boolean logic (Returning `True` or `False`)
+
 HOW TO THINK ABOUT THIS:
 1. The naive approach is a nested loop (compare every item with every other item) -> O(N^2) time.
 2. An optimal approach uses a Hash Set. 
