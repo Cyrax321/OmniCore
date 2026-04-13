@@ -1,6 +1,6 @@
-# NeuroForge ⚡️
+# OmniCore ⚡️
 
-**NeuroForge** is an accelerated, high-intensity curriculum repository designed to bridge the gap between foundational Python programming and advanced Machine Learning (ML) architecture. 
+**OmniCore** is an accelerated, high-intensity curriculum repository designed to bridge the gap between foundational Python programming and advanced Machine Learning (ML) architecture. 
 
 It strips away the overhead of Jupyter Notebooks in favor of test-driven, raw Python executable quests—engineering your syntax into algorithmic intuition.
 
@@ -62,4 +62,4 @@ The runner system utilizes a specialized ASCII telemetry protocol to report test
 - `[CAPS]  ★ ` -- Project Capstone passed successfully.
 
 ---
-*Developed by Cyrax / 2026*
+*Developed by Cyrax321 / 2026*
