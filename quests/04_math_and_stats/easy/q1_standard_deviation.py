@@ -25,6 +25,17 @@ HOW TO THINK ABOUT THIS:
 4. Step C: Find the mean of those squared differences (variance).
 5. Step D: Return the square root of that variance.
 
+CODING STEPS FOR BEGINNERS:
+1. Find length: `n = len(data)`
+2. Calculate the mean: `mean = sum(data) / n`
+3. Prepare a list for squared differences: `squared_diffs = []`
+4. Loop through the data: `for x in data:`
+5. Inside that loop:
+   `diff = x - mean`
+   `squared = diff ** 2`
+   `squared_diffs.append(squared)`
+6. Find variance: `variance = sum(squared_diffs) / n`
+7. Return standard deviation: `return math.sqrt(variance)`
 """
 import math
 
