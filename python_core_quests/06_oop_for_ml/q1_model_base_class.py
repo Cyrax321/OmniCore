@@ -28,6 +28,19 @@ HOW TO THINK ABOUT THIS:
 2. The `__init__` function gives the Object its default stats the moment it is born.
 3. Every function inside a class takes `self` as the first argument, which is how it modifies its own variables!
 
+CODING STEPS FOR BEGINNERS:
+1. Use the class keyword: `class Model:`
+2. Define the constructor: `def __init__(self, name):`
+   - Inside, assign `self.name = name` and `self.is_trained = False`
+3. Define the fit method: `def fit(self, data):`
+   - Assign `self.is_trained = True` and `self.data_size = len(data)`
+   - `return "Training Complete"`
+4. Define the predict method: `def predict(self):`
+   - `if not self.is_trained:` return `"Model must be trained first!"`
+   - `else:` return `f"Predicting based on {self.data_size} records"`
+
+**IMPORTANT:**
+Instead of `def solve():`, you will build the class `Model` below! Remove 'pass'.
 """
 
 # ==========================================
