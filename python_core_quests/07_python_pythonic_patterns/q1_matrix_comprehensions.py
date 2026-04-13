@@ -19,6 +19,9 @@ HOW TO THINK ABOUT THIS:
 2. A list comprehension condenses this! The syntax reads exactly like the nested loop, just collapsed into one line inside `[]`.
 3. The format is: `[what_to_keep FOR row IN matrix FOR value IN row IF condition]`
 
+CODING STEPS FOR BEGINNERS:
+1. `return [value for row in matrix for value in row if value > 0]`
+2. That's it! List comprehensions are extremely fast and essential before using Numpy.
 """
 
 def solve(matrix):
