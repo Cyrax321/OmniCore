@@ -21,6 +21,12 @@ EXAMPLES:
 3) Input: data = [10, 20, 30], target_index = 0
    Expected: 10
 
+PREREQUISITES TO STUDY:
+- `try:` and `except:` blocks
+- Catching specific error types (`except IndexError:`)
+- Raising custom errors (`raise ValueError("message")`)
+- `None` type checking (`is None`)
+
 HOW TO THINK ABOUT THIS:
 1. We are attempting something risky: assessing an array index that might not exist. Wrap it in a `try` block.
 2. If Python complains it's too big, it throws an `IndexError`. We explicitly catch that and return our fallback string.
