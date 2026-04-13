@@ -68,11 +68,11 @@ if __name__ == "__main__":
             result = solve(test["input"])
             # Using math.isclose to handle float precision issues
             if result is not None and math.isclose(result, test["expected"], rel_tol=1e-5):
-                print(f"💖 Test {i+1} Passed!")
+                print(f"<3 Test {i+1} Passed!")
                 passed += 1
             else:
-                print(f"🥺 Test {i+1} Failed. Expected {test['expected']}, got {result}")
+                print(f":( Test {i+1} Failed. Expected {test['expected']}, got {result}")
         except Exception as e:
-            print(f"🐾 Test {i+1} Error: {e}")
+            print(f"o_O Test {i+1} Error: {e}")
             
     print(f"\nScore: {passed}/{len(tests)}")

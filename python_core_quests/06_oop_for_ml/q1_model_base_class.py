@@ -64,35 +64,35 @@ if __name__ == "__main__":
         
         passed = 0
         if getattr(model, "name", None) == "TestModel" and getattr(model, "is_trained", None) == False:
-            print("💖 Test 1 (Init) Passed!")
+            print("<3 Test 1 (Init) Passed!")
             passed += 1
         else:
-            print("🥺 Test 1 (Init) Failed.")
+            print(":( Test 1 (Init) Failed.")
             
         res1 = model.predict()
         if res1 == "Model must be trained first!":
-            print("💖 Test 2 (Untrained Predict) Passed!")
+            print("<3 Test 2 (Untrained Predict) Passed!")
             passed += 1
         else:
-            print(f"🥺 Test 2 (Untrained Predict) Failed. Got: {res1}")
+            print(f":( Test 2 (Untrained Predict) Failed. Got: {res1}")
 
         res2 = model.fit(["data1", "data2", "data3"])
         if res2 == "Training Complete" and getattr(model, "is_trained", None) == True and getattr(model, "data_size", None) == 3:
-             print("💖 Test 3 (Fit method) Passed!")
+             print("<3 Test 3 (Fit method) Passed!")
              passed += 1
         else:
-             print("🥺 Test 3 (Fit method) Failed.")
+             print(":( Test 3 (Fit method) Failed.")
              
         res3 = model.predict()
         if res3 == "Predicting based on 3 records":
-            print("💖 Test 4 (Trained Predict) Passed!")
+            print("<3 Test 4 (Trained Predict) Passed!")
             passed += 1
         else:
-            print(f"🥺 Test 4 (Trained Predict) Failed. Got: {res3}")
+            print(f":( Test 4 (Trained Predict) Failed. Got: {res3}")
             
         print(f"\nScore: {passed}/4")
 
     except NameError:
-        print("🐾 Class 'Model' not defined yet!")
+        print("o_O Class 'Model' not defined yet!")
     except Exception as e:
-        print(f"🐾 Test Error: {e}")
+        print(f"o_O Test Error: {e}")

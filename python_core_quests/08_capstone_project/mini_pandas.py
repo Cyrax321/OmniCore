@@ -1,6 +1,6 @@
 """
 =========================================================
-🎀 CAPSTONE PROJECT: MINI PANDAS 🎀
+★ CAPSTONE PROJECT: MINI PANDAS ★
 =========================================================
 
 INSTRUCTIONS:
@@ -63,35 +63,35 @@ if __name__ == "__main__":
         
         passed = 0
         if df.get_column("age") == [20, 25, 30]:
-            print("💖 Test 1 (get_column) Passed!")
+            print("<3 Test 1 (get_column) Passed!")
             passed += 1
         else:
-            print("🥺 Test 1 Failed.")
+            print(":( Test 1 Failed.")
             
         try:
             df.get_column("invalid")
-            print("🥺 Test 2 (KeyError) Failed. Didn't raise error.")
+            print(":( Test 2 (KeyError) Failed. Didn't raise error.")
         except KeyError:
-             print("💖 Test 2 (KeyError on bad column) Passed!")
+             print("<3 Test 2 (KeyError on bad column) Passed!")
              passed += 1
              
         if df.mean("salary") == 70000.0:
-            print("💖 Test 3 (mean) Passed!")
+            print("<3 Test 3 (mean) Passed!")
             passed += 1
         else:
-            print(f"🥺 Test 3 Failed. Got {df.mean('salary')}")
+            print(f":( Test 3 Failed. Got {df.mean('salary')}")
             
         filtered = df.filter_greater_than("age", 22)
         expected = {"age": [25, 30], "salary": [60000, 100000]}
         if filtered == expected:
-            print("💖 Test 4 (filter_greater_than) Passed!")
+            print("<3 Test 4 (filter_greater_than) Passed!")
             passed += 1
         else:
-            print(f"🥺 Test 4 Failed. Expected {expected}, got {filtered}")
+            print(f":( Test 4 Failed. Expected {expected}, got {filtered}")
         
         print(f"\nScore: {passed}/4!")
 
     except NameError:
-        print("🐾 Class 'DataFrame' not defined!")
+        print("o_O Class 'DataFrame' not defined!")
     except Exception as e:
-        print(f"🐾 Test Error: {e}")
+        print(f"o_O Test Error: {e}")

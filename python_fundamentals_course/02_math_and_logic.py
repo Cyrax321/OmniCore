@@ -50,19 +50,19 @@ if __name__ == "__main__":
     passed = 0
     try:
         if practice_one() == 25:
-            print("💖 Practice 1 Passed! Basic math works.")
+            print("<3 Practice 1 Passed! Basic math works.")
             passed += 1
         else:
-             print("🥺 Practice 1 Failed. Expected 25.")
+             print(":( Practice 1 Failed. Expected 25.")
     except Exception as e: pass
 
     try:
         if practice_two() == 80:
-            print("💖 Practice 2 Passed! You successfully modified a variable in place.")
+            print("<3 Practice 2 Passed! You successfully modified a variable in place.")
             passed += 1
         else:
-            print("🥺 Practice 2 Failed. Did you remember to subtract 20 from 100?")
+            print(":( Practice 2 Failed. Did you remember to subtract 20 from 100?")
     except Exception as e: pass
     
     if passed == 2:
-        print("\n✨ GREAT JOB! On to Arrays and Lists!")
+        print("\n(*^▽^*) GREAT JOB! On to Arrays and Lists!")
