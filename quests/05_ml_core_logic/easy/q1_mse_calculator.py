@@ -18,6 +18,12 @@ EXAMPLES:
    Expected: 0.0 (Perfect prediction)
 2) Input: actual = [1.0, 2.0, 3.0], predicted = [0.0, 1.0, 2.0]
    Expected: 1.0
+HOW TO THINK ABOUT THIS:
+1. You are comparing two lists index by index. A `for` loop using `range(len(actual))` or the `zip(actual, predicted)` function is ideal here.
+2. Keep a running tally of your total error.
+3. For each pair of (actual, predicted), subtract them, square the result, and add to your total.
+4. Finally, divide the total error by the number of items 'N' to get the "Mean" Squared Error.
+
 """
 
 def solve(actual, predicted):
