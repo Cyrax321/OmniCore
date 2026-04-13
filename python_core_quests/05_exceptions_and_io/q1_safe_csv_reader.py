@@ -21,6 +21,12 @@ EXAMPLES:
 3) Input: data = [10, 20, 30], target_index = 0
    Expected: 10
 
+HOW TO THINK ABOUT THIS:
+1. We are attempting something risky: assessing an array index that might not exist. Wrap it in a `try` block.
+2. If Python complains it's too big, it throws an `IndexError`. We explicitly catch that and return our fallback string.
+3. If it succeeds, check if the value we grabbed is `None`. If it is, forcefully trigger an error using `raise`.
+4. If it's valid, return it.
+
 """
 
 def solve(data, target_index):
