@@ -59,17 +59,17 @@ if __name__ == "__main__":
     passed = 0
     try:
         if practice_one() == 30:
-            print("🌸 Practice 1 Passed! Accumulator loop works perfectly.")
+            print("💖 Practice 1 Passed! Accumulator loop works perfectly.")
             passed += 1
-        else: print("(╥﹏╥) Practice 1 Failed. Make sure your total builds up!")
+        else: print("🥺 Practice 1 Failed. Make sure your total builds up!")
     except Exception: pass
 
     try:
         res = practice_two()
         if type(res) == list and len(res) == 3 and res[0] == "Hello":
-            print("🌸 Practice 2 Passed! Looping ranges.")
+            print("💖 Practice 2 Passed! Looping ranges.")
             passed += 1
-        else: print("(╥﹏╥) Practice 2 Failed.")
+        else: print("🥺 Practice 2 Failed.")
     except Exception: pass
     
     if passed == 2:

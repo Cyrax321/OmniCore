@@ -53,17 +53,17 @@ if __name__ == "__main__":
     passed = 0
     try:
         if practice_one() == "cyrax@mail.com":
-            print("🌸 Practice 1 Passed! Reading dictionary keys.")
+            print("💖 Practice 1 Passed! Reading dictionary keys.")
             passed += 1
-        else: print("(╥﹏╥) Practice 1 Failed.")
+        else: print("🥺 Practice 1 Failed.")
     except Exception: pass
 
     try:
         res = practice_two()
         if type(res) == dict and res.get("health") == 100:
-            print("🌸 Practice 2 Passed! Updating dictionary keys.")
+            print("💖 Practice 2 Passed! Updating dictionary keys.")
             passed += 1
-        else: print("(╥﹏╥) Practice 2 Failed.")
+        else: print("🥺 Practice 2 Failed.")
     except Exception: pass
     
     if passed == 2:

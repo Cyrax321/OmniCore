@@ -58,23 +58,23 @@ if __name__ == "__main__":
     passed = 0
     try:
         if practice_one() == [10, 20, 30]:
-            print("🌸 Practice 1 Passed! Making lists.")
+            print("💖 Practice 1 Passed! Making lists.")
             passed += 1
-        else: print("(╥﹏╥) Practice 1 Failed.")
+        else: print("🥺 Practice 1 Failed.")
     except Exception: pass
 
     try:
         if practice_two() == "Bird":
-            print("🌸 Practice 2 Passed! Indexing arrays.")
+            print("💖 Practice 2 Passed! Indexing arrays.")
             passed += 1
-        else: print("(╥﹏╥) Practice 2 Failed. Hint: 'Bird' is the 3rd item, so it's index 2!")
+        else: print("🥺 Practice 2 Failed. Hint: 'Bird' is the 3rd item, so it's index 2!")
     except Exception: pass
     
     try:
         if practice_three() == 4:
-            print("🌸 Practice 3 Passed! Appending and counting length.")
+            print("💖 Practice 3 Passed! Appending and counting length.")
             passed += 1
-        else: print("(╥﹏╥) Practice 3 Failed. Did you append D and then use len()?")
+        else: print("🥺 Practice 3 Failed. Did you append D and then use len()?")
     except Exception: pass
     
     if passed == 3:
