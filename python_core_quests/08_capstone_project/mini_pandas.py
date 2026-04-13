@@ -22,6 +22,12 @@ Build a class `DataFrame`.
    - Returns a NEW dictionary representing only the rows where `col_name > value`.
    - E.g. `df.filter_greater_than("age", 22)` -> Returns data dict but indices 0 removed because age[0] is 20.
 
+PREREQUISITES TO STUDY:
+- Class Definitions and `self`
+- Nested dictionaries and lists
+- Raising exceptions
+- List comprehensions and `enumerate()`
+
 HOW TO THINK ABOUT THIS:
 1. This combines basically everything from Quests 01 to 07!
 2. `get_column` is simple dictionary access + a Try/Except or `in` check.
