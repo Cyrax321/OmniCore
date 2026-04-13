@@ -18,6 +18,13 @@ You may use `math.sqrt()`.
 EXAMPLES:
 1) Input: [2.0, 4.0, 4.0, 4.0, 5.0, 5.0, 7.0, 9.0]
    Expected: Approx 2.0
+HOW TO THINK ABOUT THIS:
+1. Code this sequentially following the mathematical steps.
+2. Step A: Compute the mean by summing the array and dividing by its length.
+3. Step B: Create a new array (or running sum) of the squared differences: `(x - mean) ** 2` for each `x`.
+4. Step C: Find the mean of those squared differences (variance).
+5. Step D: Return the square root of that variance.
+
 """
 import math
 
