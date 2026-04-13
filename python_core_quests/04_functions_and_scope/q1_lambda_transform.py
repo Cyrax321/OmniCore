@@ -16,6 +16,12 @@ EXAMPLES:
 1) Input: `[" 12.5 ", "  3.1 ", " 0.0"]`
    Expected: `[12.5, 3.1, 0.0]`
 
+HOW TO THINK ABOUT THIS:
+1. `map()` takes two arguments: a function, and a list (iterable).
+2. Instead of writing a full `def clean_str(s):` function, we can use a one-line `lambda`.
+3. Our lambda needs to take `x`, strip it (`x.strip()`), and wrap it in `float()`.
+4. `map()` returns a map object. We need to cast it back to a list before returning.
+
 """
 
 def solve(data):
