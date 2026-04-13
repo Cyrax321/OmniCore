@@ -1,49 +1,51 @@
-# 🌸 NeuroForge: Python AI Curriculum 🌸
+# NeuroForge ⚡️
 
-Welcome to the **NeuroForge** repository! This is a highly consolidated, premium learning environment bridging the gap between absolute beginner Python and advanced Machine Learning (ML) architecture. 
+**NeuroForge** is an accelerated, high-intensity curriculum repository designed to bridge the gap between foundational Python programming and advanced Machine Learning (ML) architecture. 
 
-✨ **Paced for humans, architected for AI.** ✨
+It strips away the overhead of Jupyter Notebooks in favor of test-driven, raw Python executable quests—engineering your syntax into algorithmic intuition.
 
 ---
 
-## 📚 Curriculum Structure
+## 🔬 System Architecture
 
-The repository has been decoupled into three master namespaces for elite navigation:
+The core curriculum is decoupled into three master namespaces, representing the chronological learning path required for AI/ML engineering:
 
-### 1️⃣ `curriculum/`
-The actual path from zero to ML engineering.
+### `[ 01 ]` curriculum/
+The primary educational engine.
 * **`01_beginner_fundamentals/`** 
-  * Interactive Textbooks teaching Variables, If-Statements, Loops, Functions, and Dictionaries.
+  * Core programmatic building blocks: State Management (Variables), Control Flow, Iterators, and Hash Maps (Dictionaries).
 * **`02_intermediate_core/`** 
-  * Algorithmic training specifically targeting AI patterns (Log Parsing, Feature Extraction, OOP Base Classes, Matrix Comprehensions).
+  * Algorithmic training targeting ML preprocessing patterns: Log Parsing, Feature Extraction, OOP Base Classes, and Matrix Operations.
 * **`03_advanced_algorithms/`** 
-  * Intensive data structure questions (Two Pointers, Matrices, Standard Deviation, KNN logic) built like Leetcode modules.
+  * Intensive data structure problem sets (Two Pointers, Matrices, Standard Deviation, KNN logic).
 * **`04_projects/`** 
-  * Standalone Capstones, like a pure-Python replica of a **Pandas DataFrame**! ★
+  * Standalone Capstones. Includes a from-scratch, pure-Python implementation of a structured Dataframe (`mini_pandas.py`).
 
-### 2️⃣ `sandbox/`
-* **`experimental_models/`**: Loose scripts, prototypes, and testing loops (e.g. `model-upgrade.py`, `model_conditions.py`). 🐾
+### `[ 02 ]` sandbox/
+* **`experimental_models/`**: Unstructured workspace containing loose scripts, early prototypes, and temporary testing algorithms (e.g., `model_conditions.py`).
 
-### 3️⃣ `archive/`
-* Historical research, data science (`ds/`), legacy datasets, and CS50 assignments safely tucked away.
+### `[ 03 ]` archive/
+* Frozen state. Historical research, legacy datasets, and collegiate CS50 assignments safely compartmentalized.
 
 ---
 
-## 💖 Testing Methodology
+## ⚙️ Testing & Telemetry
 
-All curriculum chapters and quests contain built-in tests grading your skills on execution. Simply run any `.py` file to trigger the internal Test Runner!
+Every curriculum chapter acts as a standalone executable containing built-in runtime tests. To execute a test suite, run the python script directly.
 
 ```bash
+# Example Execution
 python curriculum/01_beginner_fundamentals/01_variables_and_printing.py
 ```
 
-<ins>**Runner Status Codes:**</ins>
-- Pass: `<3`
-- Fail: `:(`
-- Warning: `o_O`
-- Victory/Completion: `(*^▽^*)`
-- Capstone: `★`
+### Execution Status Codes
+The runner system utilizes a specialized ASCII telemetry protocol to report test status directly to `stdout`.
+
+- `[PASS]  <3`  -- Function executes strictly within parameters.
+- `[FAIL]  :( ` -- Critical logic failure or assertion miss.
+- `[WARN]  o_O` -- Syntax warning or undefined behavior.
+- `[DONE]  (*^▽^*)` -- Module successfully validated.
+- `[CAPS]  ★ ` -- Project Capstone passed successfully.
 
 ---
-
-*Architected by Antigravity in deep-collaboration with Cyrax.* <3
+*Developed by Cyrax / 2026*
