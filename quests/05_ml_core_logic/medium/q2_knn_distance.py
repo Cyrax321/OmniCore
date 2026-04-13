@@ -18,6 +18,12 @@ EXAMPLES:
 1) Input: points = [[1, 3], [-2, 2]], target = [0, 0], k = 1
    Expected: [[-2, 2]]
    Reason: Dist to [1, 3] is sqrt(10) = 3.16. Dist to [-2, 2] is sqrt(8) = 2.82. [-2, 2] is closer!
+PREREQUISITES TO STUDY:
+- 2D Arrays / Nested Lists handling
+- The Euclidean Distance formula calculation
+- Sorting arrays of complex objects automatically (`distances.sort()`)
+- List slicing to extract sub-portions of an array
+
 HOW TO THINK ABOUT THIS:
 1. You need to calculate the distance from every point in the list to the target point.
 2. Create a list of tuples or sub-lists where each element looks like: `(distance, point)`.
