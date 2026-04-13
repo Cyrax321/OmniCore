@@ -22,6 +22,10 @@ HOW TO THINK ABOUT THIS:
 3. Our lambda needs to take `x`, strip it (`x.strip()`), and wrap it in `float()`.
 4. `map()` returns a map object. We need to cast it back to a list before returning.
 
+CODING STEPS FOR BEGINNERS:
+1. Define your lambda mapping variable: `mapped = map(lambda x: float(x.strip()), data)`
+2. Convert that map object into a standard list: `result = list(mapped)`
+3. Return the `result`.
 """
 
 def solve(data):
