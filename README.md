@@ -14,9 +14,19 @@ Welcome to **NeuroForge**, an exclusive repository dedicated to the exploration 
 
 ## 📂 Data Structures & Pipelines
 
-- **`ds/data-cleaner.py`** — Utilities for pre-processing and scrubbing datasets before feeding them to the models.
+- **`ds/dataset.py`** — Raw dataset definitions, labeling maps, and feature isolation.
 - **`ds/dict.py`** — Dictionaries and structured feature maps demonstrations.
 - **`ds/list.py`** — List manipulation patterns for batching and scaling array data.
+
+## 🎓 CS50 Fundamentals
+
+- **`harvard-cs50/str.py`** — Basic string manipulation, sanitization, and formatting.
+- **`harvard-cs50/str1.py`** — Advanced string method chaining exercises.
+
+## 🧪 Testing & Evaluation
+
+- **`tests/test1.py`** — Dataset validation and outlier filtering.
+- **`tests/test2.py`** — Model accuracy scoring and prediction alignment tests.
 
 ---
 *Maintained securely. Private access only.*
