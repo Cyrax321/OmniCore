@@ -1,0 +1,52 @@
+"""
+=========================================================
+Quest: Mean Squared Error (MSE)
+Topic: ML Core Logic
+Difficulty: Easy
+=========================================================
+
+INSTRUCTIONS:
+Mean Squared Error (MSE) is a common loss function for regression tasks.
+Given two lists of numbers of the same length, `actual` and `predicted`:
+Calculate the MSE by taking the average of the squared differences between the actual and predicted values.
+
+Formula:
+MSE = (1/N) * sum((actual[i] - predicted[i])^2)
+
+EXAMPLES:
+1) Input: actual = [1.0, 2.0, 3.0], predicted = [1.0, 2.0, 3.0]
+   Expected: 0.0 (Perfect prediction)
+2) Input: actual = [1.0, 2.0, 3.0], predicted = [0.0, 1.0, 2.0]
+   Expected: 1.0
+"""
+
+def solve(actual, predicted):
+    # ==========================================
+    # WRITE YOUR CODE HERE
+    # ==========================================
+    pass
+
+
+# ==========================================
+# TEST RUNNER (Do not modify anything below)
+# ==========================================
+if __name__ == "__main__":
+    tests = [
+        {"input": ([1.0, 2.0, 3.0], [1.0, 2.0, 3.0]), "expected": 0.0},
+        {"input": ([1.0, 2.0, 3.0], [0.0, 1.0, 2.0]), "expected": 1.0},
+        {"input": ([5.0, 10.0], [3.0, 8.0]), "expected": 4.0}
+    ]
+    
+    passed = 0
+    for i, test in enumerate(tests):
+        try:
+            result = solve(test["input"][0], test["input"][1])
+            if result is not None and abs(result - test["expected"]) < 1e-5:
+                print(f"✅ Test {i+1} Passed!")
+                passed += 1
+            else:
+                print(f"❌ Test {i+1} Failed. Expected {test['expected']}, got {result}")
+        except Exception as e:
+            print(f"⚠️ Test {i+1} Error: {e}")
+            
+    print(f"\nScore: {passed}/{len(tests)}")
