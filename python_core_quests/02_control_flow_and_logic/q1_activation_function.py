@@ -18,6 +18,11 @@ EXAMPLES:
 2) Input: x = 10, func_type = "linear"
    Expected: 10
 
+PREREQUISITES TO STUDY:
+- If / Elif / Else statements
+- Conditional checking (`>`)
+- String equality (`==`)
+
 HOW TO THINK ABOUT THIS:
 1. We check `func_type` first.
 2. If it is "relu", we do an internal check: is `x` greater than 0? If so, give `x`, else give `0`.
