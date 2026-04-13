@@ -24,6 +24,13 @@ HOW TO THINK ABOUT THIS:
 3. If it varies to "linear", we strictly give `x` as is.
 4. Finally, an `else` catch-all intercepts bad inputs.
 
+CODING STEPS FOR BEGINNERS:
+1. Set up your first condition: `if func_type == "relu":`
+2. Inside that block, add another if/else: `if x > 0: return x` otherwise `return 0`
+3. Outside, set up the next condition: `elif func_type == "linear":`
+4. Inside there, `return x`
+5. Finally, `else:`
+6. Inside there, `return "Unknown Function"`
 """
 
 def solve(x, func_type):
