@@ -16,6 +16,13 @@ EXAMPLES:
 1) Input: data = {"users": [{"id": "u1", "tags": ["#ml", "#ai"]}, {"id": "u2", "tags": ["#python"]}]}, user_id = "u2"
    Expected: ["#python"]
 
+HOW TO THINK ABOUT THIS:
+1. Extract the main list of users from the `data` dictionary using the key `"users"`.
+2. Loop over this list. Every element is itself a dictionary representing a `user`.
+3. Check the user's `"id"`. If it matches `user_id`, we found our target.
+4. Return that user's `"tags"`. 
+5. If the loop ends and you found nothing, return empty list `[]`.
+
 """
 
 def solve(data, user_id):
