@@ -21,6 +21,13 @@ HOW TO THINK ABOUT THIS:
 3. You could sort the dictionary by values, but an even better pattern for "Top K" problems is using a Max-Heap or Bucket Sort.
 4. Python's `collections.Counter` handles the counting easily, and `Counter.most_common(k)` uses an internal heap to give you the answer optimally. Try doing it manually first!
 
+CODING STEPS FOR BEGINNERS:
+1. Import Counter right above your function: `from collections import Counter`
+2. Create a frequency map: `counts = Counter(data)` (Looks like: {1: 3, 2: 2, 3: 1})
+3. Find the most common items: `top_k = counts.most_common(k)` (Looks like: [(1, 3), (2, 2)])
+4. Use a python list comprehension to easily extract just the keys from those tuples: 
+   `result = [item[0] for item in top_k]`
+5. Return your `result` list.
 """
 
 def solve(data, k):
