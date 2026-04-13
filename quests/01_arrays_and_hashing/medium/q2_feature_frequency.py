@@ -15,6 +15,12 @@ EXAMPLES:
    Expected: [1, 2] (or [2, 1])
 2) Input: data = [1], k = 1
    Expected: [1]
+HOW TO THINK ABOUT THIS:
+1. First, you need to count how many times each element appears. A hash map (dictionary) is perfect for this.
+2. Next, you need a way to find the highest counts. 
+3. You could sort the dictionary by values, but an even better pattern for "Top K" problems is using a Max-Heap or Bucket Sort.
+4. Python's `collections.Counter` handles the counting easily, and `Counter.most_common(k)` uses an internal heap to give you the answer optimally. Try doing it manually first!
+
 """
 
 def solve(data, k):
