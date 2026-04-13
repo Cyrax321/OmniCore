@@ -21,6 +21,15 @@ HOW TO THINK ABOUT THIS:
 3. Instead of recalculating the entire sum for the next window, just subtract the element that "fell off" the left side and add the element that "entered" on the right.
 4. Calculate the average for each window and append it to your results array.
 
+CODING STEPS FOR BEGINNERS:
+1. Handle the edge case: `if window_size > len(data): return []`
+2. Initialize an empty `result = []` list.
+3. Calculate the sum of the first window: `current_sum = sum(data[0:window_size])`
+4. Add the first average to your results: `result.append(current_sum / window_size)`
+5. Loop over the rest of the elements using: `for i in range(window_size, len(data)):`
+6. Inside loop, slide the window: `current_sum = current_sum - data[i - window_size] + data[i]`
+7. Append the new window's average: `result.append(current_sum / window_size)`
+8. After the loop, `return result`
 """
 
 def solve(data, window_size):
