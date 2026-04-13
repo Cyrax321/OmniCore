@@ -6,6 +6,20 @@ It strips away the overhead of Jupyter Notebooks in favor of test-driven, raw Py
 
 ---
 
+## 🚀 The 2026 Learning Methodology
+
+You cannot learn strict ML architecture using legacy tutorials. This codebase is explicitly engineered to be executed inside an **AI-Native Agentic IDE** (such as Cursor or Windsurf). 
+
+To master Python for AI in record time, you must follow the Agentic Loop:
+
+1. **Clone & Load:** `git clone https://github.com/Cyrax321/NeuroForge.git` and open the directory inside an AI-optimized IDE.
+2. **Execute:** Run the curriculum files locally in your terminal (e.g., `python curriculum/01_beginner_fundamentals/...`).
+3. **Engage the Agent:** If you hit an algorithmic wall, encounter an assertion error from the internal test runner, or simply do not understand *why* a list comprehension behaves the way it does—**Do not Google it.** Highlight the code and command your AI agent to explain the logic, trace the error, and teach you the underlying concept directly inside your editor. 
+
+This repository acts as your physical training ground. Your AI IDE is your private tutor.
+
+---
+
 ## 🔬 System Architecture
 
 The core curriculum is decoupled into three master namespaces, representing the chronological learning path required for AI/ML engineering:
@@ -22,7 +36,7 @@ The primary educational engine.
   * Standalone Capstones. Includes a from-scratch, pure-Python implementation of a structured Dataframe (`mini_pandas.py`).
 
 ### `[ 02 ]` sandbox/
-* **`experimental_models/`**: Unstructured workspace containing loose scripts, early prototypes, and temporary testing algorithms (e.g., `model_conditions.py`).
+* **`experimental_models/`**: Unstructured workspace containing loose scripts, early prototypes, and temporary testing algorithms.
 
 ### `[ 03 ]` archive/
 * Frozen state. Historical research, legacy datasets, and collegiate CS50 assignments safely compartmentalized.
