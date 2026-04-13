@@ -16,6 +16,11 @@ EXAMPLES:
 1) Input: data = {"users": [{"id": "u1", "tags": ["#ml", "#ai"]}, {"id": "u2", "tags": ["#python"]}]}, user_id = "u2"
    Expected: ["#python"]
 
+PREREQUISITES TO STUDY:
+- Dictionary access (`dict["key"]`)
+- Lists of Dictionaries
+- For loops iterating through objects
+
 HOW TO THINK ABOUT THIS:
 1. Extract the main list of users from the `data` dictionary using the key `"users"`.
 2. Loop over this list. Every element is itself a dictionary representing a `user`.
