@@ -15,6 +15,12 @@ EXAMPLES:
    Expected: [1, 2] (or [2, 1])
 2) Input: data = [1], k = 1
    Expected: [1]
+PREREQUISITES TO STUDY:
+- Dictionaries (Key-Value pairs)
+- Python's `collections.Counter` module
+- Tuples vs Lists
+- List Comprehensions (`[x for x in data]`)
+
 HOW TO THINK ABOUT THIS:
 1. First, you need to count how many times each element appears. A hash map (dictionary) is perfect for this.
 2. Next, you need a way to find the highest counts. 
