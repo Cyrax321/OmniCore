@@ -18,6 +18,11 @@ EXAMPLES:
 2) Input: "ERROR_CODE: 500 | MSG: CRASH | IP: 10.0.0.1"
    Expected: 500 (as an integer)
 
+PREREQUISITES TO STUDY:
+- String Methods (`.split()`)
+- Indexing into arrays
+- Casting types into Integers (`int()`)
+
 HOW TO THINK ABOUT THIS:
 1. The string has different chunks separated by `" | "`.
 2. The exact chunk we care about is the first one: `"ERROR_CODE: 404"`.
