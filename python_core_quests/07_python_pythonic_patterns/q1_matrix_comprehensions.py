@@ -14,6 +14,11 @@ EXAMPLES:
 1) Input: [[-1, 2], [0, 4, -5], [9]]
    Expected: [2, 4, 9]
 
+PREREQUISITES TO STUDY:
+- Nested `for` loops in list comprehensions
+- `if` conditions in list comprehensions
+- `[expression for sublist in matrix for item in sublist if condition]`
+
 HOW TO THINK ABOUT THIS:
 1. First, how would you do this normally? You'd create an empty list, loop through the rows, loop through the columns in that row, check if `> 0`, and append.
 2. A list comprehension condenses this! The syntax reads exactly like the nested loop, just collapsed into one line inside `[]`.
