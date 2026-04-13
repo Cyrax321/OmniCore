@@ -24,6 +24,13 @@ HOW TO THINK ABOUT THIS:
 4. If it's already in the set, you found a duplicate! Return True.
 5. If not, add it to the set and keep going.
 
+CODING STEPS FOR BEGINNERS:
+1. Initialize an empty set: `seen = set()`
+2. Use a loop to go through your list: `for number in data:`
+3. Check if it exists in the set: `if number in seen:`
+4. Inside the `if`, return True.
+5. If the `if` condition isn't met, add the number: `seen.add(number)`
+6. If the loop completely finishes without returning True, put `return False` at the very end.
 """
 
 def solve(data):
