@@ -15,6 +15,12 @@ EXAMPLES:
 1) Input: data = [1.0, 2.0, 3.0, 4.0], window_size = 2
    Averages: [(1+2)/2, (2+3)/2, (3+4)/2]
    Expected: [1.5, 2.5, 3.5]
+PREREQUISITES TO STUDY:
+- List Slicing (`data[0:n]`)
+- Python's built-in `sum()` and `len()` functions
+- Array bounds and Edge cases (Checking window sizes vs length)
+- The `range(start, end)` loop construct
+
 HOW TO THINK ABOUT THIS:
 1. A sliding window looks at a continuous block of array elements at once.
 2. Start by calculating the sum of the very first window (e.g., indices 0 to window_size - 1).
