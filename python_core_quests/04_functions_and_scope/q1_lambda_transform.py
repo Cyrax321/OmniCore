@@ -16,6 +16,13 @@ EXAMPLES:
 1) Input: `[" 12.5 ", "  3.1 ", " 0.0"]`
    Expected: `[12.5, 3.1, 0.0]`
 
+PREREQUISITES TO STUDY:
+- `strip()` string method
+- `float()` casting
+- `lambda x: ...` anonymous functions
+- `map(function, iterable)`
+- `list()` conversion
+
 HOW TO THINK ABOUT THIS:
 1. `map()` takes two arguments: a function, and a list (iterable).
 2. Instead of writing a full `def clean_str(s):` function, we can use a one-line `lambda`.
