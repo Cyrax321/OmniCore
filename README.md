@@ -85,3 +85,4 @@ The runner system utilizes a specialized ASCII telemetry protocol to report test
 - Built & Compiled `archive/ds/dict.py` successfully.
 - Built & Compiled `archive/ds/sum.py` successfully.
 - Built & Compiled `archive/mosh/variables.py` successfully.
+- Built & Compiled `archive/mosh/input.py` successfully.
