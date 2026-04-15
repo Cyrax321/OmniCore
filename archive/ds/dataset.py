@@ -3,3 +3,4 @@ clean_data = raw_data[0:3]
 labels_map = {
     "success"  : True,
     "failure " : False
+}
