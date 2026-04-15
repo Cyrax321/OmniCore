@@ -77,3 +77,4 @@ The runner system utilizes a specialized ASCII telemetry protocol to report test
 - Built & Compiled `archive/ds/hello.py` successfully.
 - Built & Compiled `archive/ds/mutiplication.py` successfully.
 - Built & Compiled `archive/ds/list.py` successfully.
+- Built & Compiled `archive/ds/variables.py` successfully.
