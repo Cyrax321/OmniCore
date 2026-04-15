@@ -7,3 +7,4 @@ c = first_no + second_no
 d = first_no - second_no
 print(a)
 print(b)
+print("The sum is : ", c)
