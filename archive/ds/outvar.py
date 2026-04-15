@@ -6,3 +6,4 @@ c = "a good boy"
 print(type(a))
 a = float(a)
 print(a)
+
