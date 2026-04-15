@@ -6,3 +6,4 @@ labels_map = {
 }
 
 print(f'last item in raw_data is {raw_data[-1]}')
+print(labels_map['success'])
