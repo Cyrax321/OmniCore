@@ -1,1 +1,2 @@
 name = 'John Smith'
+age = 20
