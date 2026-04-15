@@ -5,3 +5,4 @@ labels_map = {
     "failure " : False
 }
 
+print(f'last item in raw_data is {raw_data[-1]}')
