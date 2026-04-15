@@ -4,3 +4,4 @@ labels_map = {
     "success"  : True,
     "failure " : False
 }
+
