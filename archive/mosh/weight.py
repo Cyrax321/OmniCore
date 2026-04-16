@@ -6,3 +6,4 @@ if data == "kg" or data == "k":
     print(f"Your weight in lbs is : {lbs}")
 elif data == "lbs" or data == "l":
     kg = weight / 2.20462
+    print(f"Your weight in kg is : {kg}")
