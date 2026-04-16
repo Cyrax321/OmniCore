@@ -7,3 +7,4 @@ if price < 10 and product == "good":
     print("Buy it ")
 elif price > 10 and product == "bad":
     print("Don't buy it")
+else:
