@@ -90,3 +90,4 @@ The runner system utilizes a specialized ASCII telemetry protocol to report test
 - Built & Compiled `archive/mosh/calc.py` successfully.
 - Built & Compiled `archive/mosh/conditionals.py` successfully.
 - Built & Compiled `archive/mosh/weight.py` successfully.
+- Built & Compiled `archive/mosh/loop.py` successfully.
