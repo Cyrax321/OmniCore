@@ -8,3 +8,4 @@ if price < 10 and product == "good":
 elif price > 10 and product == "bad":
     print("Don't buy it")
 else:
+    print("Decide for yourself")
