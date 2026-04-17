@@ -1,1 +1,1 @@
-# Mini program 9\n
+# Mini program 9\nprint(len('Python'))\n
