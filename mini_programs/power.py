@@ -1,1 +1,1 @@
-# Mini program 7\n
+# Mini program 7\nprint(2 ** 3)\n
