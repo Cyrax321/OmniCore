@@ -1,1 +1,1 @@
-# Mini program 12\n
+# Mini program 12\nprint([1, 2, 3])\n
