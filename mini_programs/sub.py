@@ -1,1 +1,1 @@
-# Mini program 3\n
+# Mini program 3\nprint(5 - 3)\n
