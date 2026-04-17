@@ -1,1 +1,1 @@
-# Mini program 16\n
+# Mini program 16\nprint(True and False)\n
