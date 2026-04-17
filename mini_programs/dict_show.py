@@ -1,1 +1,1 @@
-# Mini program 13\n
+# Mini program 13\nprint({'a': 1})\n
