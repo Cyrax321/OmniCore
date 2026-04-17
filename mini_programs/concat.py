@@ -1,1 +1,1 @@
-# Mini program 17\n
+# Mini program 17\nprint('a' + 'b')\n
