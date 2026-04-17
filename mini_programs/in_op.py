@@ -1,1 +1,1 @@
-# Mini program 19\n
+# Mini program 19\nprint('a' in 'abc')\n
