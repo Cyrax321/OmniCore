@@ -1,1 +1,1 @@
-# Mini program 5\n
+# Mini program 5\nprint(10 / 2)\n
