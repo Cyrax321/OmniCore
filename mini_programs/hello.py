@@ -1,1 +1,1 @@
-# Mini program 1\n
+# Mini program 1\nprint('Hello World')\n
