@@ -1,1 +1,1 @@
-# Mini program 2\n
+# Mini program 2\nprint(1 + 2)\n
