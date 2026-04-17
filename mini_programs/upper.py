@@ -1,1 +1,1 @@
-# Mini program 10\n
+# Mini program 10\nprint('hello'.upper())\n
