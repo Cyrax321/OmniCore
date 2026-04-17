@@ -1,1 +1,1 @@
-# Mini program 20\n
+# Mini program 20\nprint(type(1))\n
