@@ -1,1 +1,1 @@
-# Mini program 4\n
+# Mini program 4\nprint(4 * 4)\n
