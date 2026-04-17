@@ -1,1 +1,1 @@
-# Mini program 18\n
+# Mini program 18\nprint('a' * 3)\n
