@@ -1,1 +1,1 @@
-# Mini program 15\n
+# Mini program 15\nprint({1, 2, 3})\n
