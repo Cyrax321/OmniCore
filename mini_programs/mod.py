@@ -1,1 +1,1 @@
-# Mini program 6\n
+# Mini program 6\nprint(10 % 3)\n
