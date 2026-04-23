@@ -33,8 +33,10 @@ We aren't going to give you a pre-written function here!
 
 # TODO:
 # Write a completely new function yourself named `multiply`
-# It should accept two inputs: `a` and `b`. 
-# Inside the function, return `a * b`!
+def multiply(a, b):
+    # It should accept two inputs: `a` and `b`. 
+    # Inside the function, return `a * b`!
+    return a * b
 
 
 # ==========================================
