@@ -40,9 +40,16 @@ CODING STEPS FOR BEGINNERS:
 
 def solve(x, func_type):
     # ==========================================
-    # WRITE YOUR CODE HERE
+    if func_type == "linear":
+        return x
+    elif func_type == "relu":
+        if x < 0:
+            return 0
+        else:
+            return x
+    else:
+        return "Unknown Function"
     # ==========================================
-    pass
 
 
 # ==========================================
