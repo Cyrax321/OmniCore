@@ -34,15 +34,21 @@ def practice_one(age):
     # TODO:
     # Look at the 'age' variable coming in.
     # Write an if statement: if age is greater than or equal to 18, return "Adult"
+    if age >= 18:
+        return "Adult"
     # Otherwise (else), return "Minor"
-    pass
+    else:
+        return "Minor"
 
 def practice_two(password):
     # TODO:
     # Write an if statement checking if the password exactly equals "Secret123"
-    # If it does, return True. 
-    # Else, return False.
-    pass
+    if password == "Secret123":
+        # If it does, return True. 
+        return True
+    else:
+        # Else, return False.
+        return False
 
 
 # ==========================================
