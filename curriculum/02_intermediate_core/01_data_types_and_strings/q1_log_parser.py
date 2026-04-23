@@ -39,9 +39,13 @@ CODING STEPS FOR BEGINNERS:
 
 def solve(log_string):
     # ==========================================
-    # WRITE YOUR CODE HERE
+    # Split the string by the separator
+    new1 = log_string.split(" | ")
+    # Grab the first chunk and split by ": "
+    new2 = new1[0].split(": ")
+    # Convert the value string to an integer and return
+    return int(new2[1])
     # ==========================================
-    pass
 
 
 # ==========================================
