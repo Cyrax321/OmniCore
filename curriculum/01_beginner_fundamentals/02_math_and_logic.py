@@ -30,17 +30,22 @@ Scroll down and complete the math!
 def practice_one():
     # TODO: 
     # Create a variable `a` equal to 50
+    a = 50
     # Create a variable `b` equal to 25
+    b = 25
     # Create a variable `result` that is `a` minus `b`
+    result = a - b
     # Return `result`
-    pass
+    return result
 
 def practice_two():
     # TODO:
     # Set a variable `health` to 100
+    health = 100
     # Use the -= shortcut to subtract 20 from health! (Like you just took damage in a game)
+    health -= 20
     # Return `health`
-    pass
+    return health
 
 
 # ==========================================
