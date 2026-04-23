@@ -15,8 +15,8 @@ It strips away the overhead of Jupyter Notebooks in favor of test-driven, raw Py
 ---
 
 ## 🏆 Student Profile: Cyrax
-**Rank**: Python Initiate  
-**Current XP**: `4,500 / 5,000`  
+**Rank**: Python Adept  
+**Current XP**: `5,000 / 10,000`  
 **Milestones**:
 - [x] **State Discovery**: Defined first variables. (+100 XP)
 - [x] **Logic Gate**: Mastered If/Else branching. (+200 XP)
@@ -28,6 +28,9 @@ It strips away the overhead of Jupyter Notebooks in favor of test-driven, raw Py
 - [x] **Log Architect**: Built an automated text parser. (+500 XP)
 - [x] **God Mode**: Passed the Foundation Final Exam. (+1,000 XP)
 - [x] **Neuron Architect**: Built a ReLU activation logic machine. (+500 XP)
+- [x] **Data Miner**: Extracted features from nested API objects. (+500 XP)
+
+---
 
 ### 📊 Knowledge Matrix
 | Skill | Level | Rank |
@@ -36,7 +39,7 @@ It strips away the overhead of Jupyter Notebooks in favor of test-driven, raw Py
 | **List Logic** | `[██████████]` | **Master** |
 | **Dict Lookups** | `[██████████]` | **Master** |
 | **Functions** | `[██████████]` | **Master** |
-| **Data Cleaning** | `[██████░░░░]` | **Veteran** |
+| **Data Cleaning** | `[████████░░]` | **Veteran** |
 
 ---
 
@@ -131,10 +134,11 @@ The runner system utilizes a specialized ASCII telemetry protocol to report test
 - Completed `sandbox/intermediate_practice/01_string_splitting.py` [DONE].
 - Validated `curriculum/02_intermediate_core/01_data_types_and_strings/q1_log_parser.py` 100% [PASS].
 - Validated `curriculum/02_intermediate_core/02_control_flow_and_logic/q1_activation_function.py` 100% [PASS].
+- Validated `curriculum/02_intermediate_core/03_advanced_data_structures/q1_nested_feature_extraction.py` 100% [PASS].
 
 ---
 
 ## 📅 Status: 2026-04-23
 - **Morning**: Debugged `NameError` in `func.py` and handled indentation issues in `for.py`.
 - **Afternoon**: Graduated from **Beginner Fundamentals**, built the **Cyber-Bank ATM**, and Passed the **Foundation Final Exam**.
-- **Current Milestone**: Commenced **Intermediate Core**. Completed **Quest 2: Activation Function**.
+- **Current Milestone**: 🎓 **RANK UP**: `Python Adept`. Completed **Intermediary Quest 3: Feature Extraction**.
