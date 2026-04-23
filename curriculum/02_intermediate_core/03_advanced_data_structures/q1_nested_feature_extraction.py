@@ -28,19 +28,21 @@ HOW TO THINK ABOUT THIS:
 4. Return that user's `"tags"`. 
 5. If the loop ends and you found nothing, return empty list `[]`.
 
-CODING STEPS FOR BEGINNERS:
-1. Extract list: `user_list = data["users"]`
-2. Loop through users: `for user in user_list:`
-3. Check condition inside loop: `if user["id"] == user_id:`
-4. Inside condition: `return user["tags"]`
-5. At the very bottom outside loop: `return []`
 """
 
 def solve(data, user_id):
-    # ==========================================
-    # WRITE YOUR CODE HERE
-    # ==========================================
-    pass
+    # 1. Access the list of user profiles
+    profiles = data["users"]
+    
+    # 2. Iterate through each profile dictionary
+    for profile in profiles:
+        # 3. Check if the "id" key matches our search target
+        if profile["id"] == user_id:
+            # 4. If matched, return the "tags" list
+            return profile["tags"]
+            
+    # 5. If loop completes with no match, return empty list
+    return []
 
 
 # ==========================================
