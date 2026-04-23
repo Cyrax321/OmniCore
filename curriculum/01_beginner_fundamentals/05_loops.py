@@ -39,17 +39,23 @@ def practice_one():
     # A list of numbers is given below.
     numbers = [10, 10, 10]
     # Set a variable `total = 0` BEFORE the loop.
+    total = 0
     # Write a `for` loop to go through the list, adding each number to `total`.
+    for number in numbers:
+        total += number
     # After the loop finishes (un-indent!), return `total`.
-    pass
+    return total
 
 def practice_two():
     # TODO:
     # Create an empty list: `results = []`
+    results = []
     # Use `range(3)` in a for loop.
-    # Inside the loop, append the word "Hello" to the `results` list.
+    for i in range(3):
+        # Inside the loop, append the word "Hello" to the `results` list.
+        results.append("Hello")
     # Return `results`.
-    pass
+    return results
 
 
 # ==========================================
