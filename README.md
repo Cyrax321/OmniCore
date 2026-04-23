@@ -16,7 +16,7 @@ It strips away the overhead of Jupyter Notebooks in favor of test-driven, raw Py
 
 ## 🏆 Student Profile: Cyrax
 **Rank**: Python Initiate  
-**Current XP**: `2,250 / 5,000`  
+**Current XP**: `2,500 / 5,000`  
 **Milestones**:
 - [x] **State Discovery**: Defined first variables. (+100 XP)
 - [x] **Logic Gate**: Mastered If/Else branching. (+200 XP)
@@ -24,6 +24,7 @@ It strips away the overhead of Jupyter Notebooks in favor of test-driven, raw Py
 - [X] **API Architect**: Mastered Dictionaries. (+200 XP)
 - [x] **The Foundation**: Completed Module 01. (+500 XP)
 - [x] **Digital Vault**: Built a functional Cyber-ATM. (+500 XP)
+- [x] **Text Surgeon**: Mastered Double-Splitting logic. (+250 XP)
 
 ---
 
