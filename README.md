@@ -28,6 +28,15 @@ It strips away the overhead of Jupyter Notebooks in favor of test-driven, raw Py
 - [x] **Log Architect**: Built an automated text parser. (+500 XP)
 - [x] **God Mode**: Passed the Foundation Final Exam. (+1,000 XP)
 
+### 📊 Knowledge Matrix
+| Skill | Level | Rank |
+| :--- | :--- | :--- |
+| **Core Syntax** | `[██████████]` | **Master** |
+| **List Logic** | `[██████████]` | **Master** |
+| **Dict Lookups** | `[██████████]` | **Master** |
+| **Functions** | `[████████░░]` | **Veteran** |
+| **Data Cleaning** | `[████░░░░░░]` | **Initiate** |
+
 ---
 
 ## 🚀 The 2026 Learning Methodology
