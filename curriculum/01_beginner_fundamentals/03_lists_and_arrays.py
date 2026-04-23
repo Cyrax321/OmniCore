@@ -32,23 +32,25 @@ YOUR TURN (PRACTICE)
 def practice_one():
     # TODO: 
     # Create a list called `my_numbers` containing the numbers 10, 20, and 30.
+    my_numbers = [10, 20, 30]
     # Return it!
-    pass
+    return my_numbers
 
 def practice_two():
     # TODO:
     # A list named `animals` is provided below.
     animals = ["Dog", "Cat", "Bird", "Tiger"]
     # Write code that returns ONLY the "Bird" from the list using indexing []!
-    pass
+    return animals[2]
 
 def practice_three():
     # TODO:
     # A list is provided below.
     items = ["A", "B", "C"]
     # Append the letter "D" to it.
+    items.append("D")
     # Then find the length of the list and return that length number!
-    pass
+    return len(items)
 
 
 # ==========================================
