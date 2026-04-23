@@ -33,16 +33,20 @@ and return them! Let me know if you get stuck.
 def practice_one():
     # TODO: Follow these 3 steps exactly!
     # 1. Create a variable named `my_name` and set it equal to your name (as a string).
+    my_name = "Anandhu P Shaji"
     # 2. Create a variable named `my_age` and set it to a number.
+    my_age = 23
     # 3. Create a variable named `is_learning` and set it to True.
+    is_learning = True
     # 4. Return all three variables separated by commas: `return my_name, my_age, is_learning`
-    pass
+    return my_name, my_age, is_learning
 
 def practice_two():
     # TODO: 
     # Create a variable named `greeting` and set it to the exact text "Hello World"
+    greeting = 'Hello World'
     # Return it!
-    pass
+    return greeting
 
 
 # ==========================================
