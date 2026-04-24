@@ -142,7 +142,16 @@ The runner system utilizes a specialized ASCII telemetry protocol to report test
 
 ## 📅 Status: 2026-04-24
 - **Morning Session**: Completed the **Zero-to-Hero Foundation Challenge**. 100% Logic Synthesis achieved.
-- **Current Milestone**: 🛡️ **OMNI-HERO**. Foundations are officially 100% Mastered.
+- **Evening Strategy**: Pivot to **Corey Schafer's BTech Path**. 
+- **Current Milestone**: 🎓 **BTech AI Mastery Init**. Started **Omni-Agenda Mission 1**.
+
+---
+
+## 🛰️ BTech AI Roadmap (The Long Game)
+- [ ] **Phase 1**: Python Foundation (Corey Schafer Videos 4-9)
+- [ ] **Phase 2**: Math Refresher (Linear Algebra / Derivatives on-demand)
+- [ ] **Phase 3**: Machine Learning Specialization (Andrew Ng)
+- [ ] **Phase 4**: Neural Networks (Andrej Karpathy)
 
 ## 📅 Status: 2026-04-23
 - **Morning**: Debugged `NameError` in `func.py` and handled indentation issues in `for.py`.
