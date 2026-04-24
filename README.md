@@ -147,11 +147,28 @@ The runner system utilizes a specialized ASCII telemetry protocol to report test
 
 ---
 
-## 🛰️ BTech AI Roadmap (The Long Game)
-- [ ] **Phase 1**: Python Foundation (Corey Schafer Videos 4-9)
-- [ ] **Phase 2**: Math Refresher (Linear Algebra / Derivatives on-demand)
-- [ ] **Phase 3**: Machine Learning Specialization (Andrew Ng)
-- [ ] **Phase 4**: Neural Networks (Andrej Karpathy)
+## 🛰️ THE ELITE AI RESEARCH ROADMAP (2026)
+**Goal**: Transition from Engineer to Researcher/Architect.
+
+### 🏗️ Phase 1: Foundation Construction [IN PROGRESS]
+- [ ] **Python Mastery**: Corey Schafer Videos 4-9 (Focus: Iterables, Dicts, Functions)
+- [/] **Omni-Agenda**: Mission 1-5 (Applying logic to real datasets)
+- [ ] **OOP Fundamentals**: Corey Schafer OOP Series (Understanding Class-based architecture)
+
+### 🧪 Phase 2: The Science Engine (Statistical Computing)
+- [ ] **NumPy Mastery**: Vectorization and Matrix Operations.
+- [ ] **Andrew Ng**: Machine Learning Specialization (Mathematics of Gradient Descent)
+- [ ] **Pandas**: Data Preprocessing and Feature Engineering.
+
+### 🏛️ Phase 3: The Architecture Forge (Deep Learning)
+- [ ] **Andrej Karpathy**: Zero to Hero (Building Transformers from scratch)
+- [ ] **PyTorch**: Gradient calculation and Backpropagation logic.
+- [ ] **CUDA**: Understanding GPU acceleration.
+
+### 🚀 Phase 4: Research Implementation (The "High-Pay" Tier)
+- [ ] **Paper Coding**: Implementing 2024/2025 SOTA papers from scratch.
+- [ ] **Fine-Tuning**: Mastering LoRA, QLoRA, and RLHF.
+- [ ] **Deployment**: Scaling to millions of users.
 
 ## 📅 Status: 2026-04-23
 - **Morning**: Debugged `NameError` in `func.py` and handled indentation issues in `for.py`.
