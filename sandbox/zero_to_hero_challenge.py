@@ -37,6 +37,9 @@ def find_admin_tags(user_database):
     DATA: user_database = [{"name": "cyrax", "role": "USER", "tags": []}, {"name": "neo", "role": "ADMIN", "tags": ["#root"]}]
     Return: The tags list (e.g. ["#root"])
     """
+    for x in user_database:
+        if x["role"] == "ADMIN" :
+            return x["tags"]
     pass
 
 # --- STAGE 4: THE MASTER PROTOCOL (SYNTHESIS) ---
@@ -49,14 +52,18 @@ def run_protocol(failed_attempts, password_score, ip, blocked_list, db):
     4. If IP is blocked, return "ACCESS DENIED".
     5. If safe, find the admin tags using find_admin_tags() and return them.
     """
-    calculate_threat(failed_attempts,password_score)
-    if Threat_score > 50 :
+    # 1. Calculate threat
+    score = calculate_threat(failed_attempts, password_score)
+    if score > 50:
         return "HIGH THREAT"
-    is_ip_blocked()
-
-
         
-    pass
+    # 2. Check if IP is blocked
+    blocked = is_ip_blocked(ip, blocked_list)
+    if blocked == True:
+        return "ACCESS DENIED"
+        
+    # 3. If safe, return admin tags
+    return find_admin_tags(db)
 
 
 # ==========================================
