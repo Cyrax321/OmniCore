@@ -1,13 +1,13 @@
 # Curriculum Module: control_flow
 # Subject: pattern matching with structural match case
-# Commit index: 96 - 2026-05-09
+# Commit index: 141 - 2026-05-13
 
-def execute_exercise_96():
+def execute_exercise_141():
     """Implementation for pattern matching with structural match case."""
-    items = [x * 2 for x in range(21)]
-    state = {'topic': 'control_flow', 'step': 96, 'count': len(items)}
+    items = [x * 2 for x in range(6)]
+    state = {'topic': 'control_flow', 'step': 141, 'count': len(items)}
     return state
 
 if __name__ == '__main__':
-    res = execute_exercise_96()
+    res = execute_exercise_141()
     print(f"control_flow: {res}")
