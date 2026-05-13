@@ -1,13 +1,13 @@
 # Curriculum Module: control_flow
 # Subject: nested loop break and continue conditions
-# Commit index: 95 - 2026-05-09
+# Commit index: 140 - 2026-05-13
 
-def execute_exercise_95():
+def execute_exercise_140():
     """Implementation for nested loop break and continue conditions."""
-    items = [x * 2 for x in range(20)]
-    state = {'topic': 'control_flow', 'step': 95, 'count': len(items)}
+    items = [x * 2 for x in range(5)]
+    state = {'topic': 'control_flow', 'step': 140, 'count': len(items)}
     return state
 
 if __name__ == '__main__':
-    res = execute_exercise_95()
+    res = execute_exercise_140()
     print(f"control_flow: {res}")
