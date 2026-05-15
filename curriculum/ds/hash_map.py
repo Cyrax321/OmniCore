@@ -1,13 +1,13 @@
 # Curriculum Module: data_structures
 # Subject: hash map with linear probing and open addressing
-# Commit index: 115 - 2026-05-10
+# Commit index: 160 - 2026-05-15
 
-def execute_exercise_115():
+def execute_exercise_160():
     """Implementation for hash map with linear probing and open addressing."""
-    items = [x * 2 for x in range(20)]
-    state = {'topic': 'data_structures', 'step': 115, 'count': len(items)}
+    items = [x * 2 for x in range(5)]
+    state = {'topic': 'data_structures', 'step': 160, 'count': len(items)}
     return state
 
 if __name__ == '__main__':
-    res = execute_exercise_115()
+    res = execute_exercise_160()
     print(f"data_structures: {res}")
