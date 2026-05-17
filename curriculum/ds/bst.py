@@ -1,13 +1,13 @@
 # Curriculum Module: data_structures
 # Subject: binary search tree with in-order traversal iterator
-# Commit index: 162 - 2026-05-15
+# Commit index: 207 - 2026-05-17
 
-def execute_exercise_162():
+def execute_exercise_207():
     """Implementation for binary search tree with in-order traversal iterator."""
-    items = [x * 2 for x in range(7)]
-    state = {'topic': 'data_structures', 'step': 162, 'count': len(items)}
+    items = [x * 2 for x in range(12)]
+    state = {'topic': 'data_structures', 'step': 207, 'count': len(items)}
     return state
 
 if __name__ == '__main__':
-    res = execute_exercise_162()
+    res = execute_exercise_207()
     print(f"data_structures: {res}")
