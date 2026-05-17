@@ -1,13 +1,13 @@
 # Curriculum Module: oop
 # Subject: property getters setters and descriptor protocol
-# Commit index: 151 - 2026-05-15
+# Commit index: 196 - 2026-05-17
 
-def execute_exercise_151():
+def execute_exercise_196():
     """Implementation for property getters setters and descriptor protocol."""
-    items = [x * 2 for x in range(16)]
-    state = {'topic': 'oop', 'step': 151, 'count': len(items)}
+    items = [x * 2 for x in range(21)]
+    state = {'topic': 'oop', 'step': 196, 'count': len(items)}
     return state
 
 if __name__ == '__main__':
-    res = execute_exercise_151()
+    res = execute_exercise_196()
     print(f"oop: {res}")
