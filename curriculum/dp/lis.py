@@ -1,13 +1,13 @@
 # Curriculum Module: dp
 # Subject: longest increasing subsequence with patience sorting
-# Commit index: 170 - 2026-05-16
+# Commit index: 215 - 2026-05-19
 
-def execute_exercise_170():
+def execute_exercise_215():
     """Implementation for longest increasing subsequence with patience sorting."""
-    items = [x * 2 for x in range(15)]
-    state = {'topic': 'dp', 'step': 170, 'count': len(items)}
+    items = [x * 2 for x in range(20)]
+    state = {'topic': 'dp', 'step': 215, 'count': len(items)}
     return state
 
 if __name__ == '__main__':
-    res = execute_exercise_170()
+    res = execute_exercise_215()
     print(f"dp: {res}")
