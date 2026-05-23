@@ -1,13 +1,13 @@
 # Curriculum Module: data_structures
 # Subject: lru cache with doubly linked list and hash index
-# Commit index: 208 - 2026-05-17
+# Commit index: 253 - 2026-05-23
 
-def execute_exercise_208():
+def execute_exercise_253():
     """Implementation for lru cache with doubly linked list and hash index."""
-    items = [x * 2 for x in range(13)]
-    state = {'topic': 'data_structures', 'step': 208, 'count': len(items)}
+    items = [x * 2 for x in range(18)]
+    state = {'topic': 'data_structures', 'step': 253, 'count': len(items)}
     return state
 
 if __name__ == '__main__':
-    res = execute_exercise_208()
+    res = execute_exercise_253()
     print(f"data_structures: {res}")
