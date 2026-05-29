@@ -1,4 +1,14 @@
 {
+    "editor.inlineSuggest.enabled": false,
+    "gemini.inlineSuggest.enabled": false,
+    "gemini.codeAssist.inlineSuggest.enabled": false,
+    "cody.autocomplete.enabled": false,
+    "editor.quickSuggestions": {
+        "other": "off",
+        "comments": "off",
+        "strings": "off"
+    },
+    "editor.suggestOnTriggerCharacters": false,
     "audioCues.enabled": "off",
     
     "accessibility.signals.enabled": false,
