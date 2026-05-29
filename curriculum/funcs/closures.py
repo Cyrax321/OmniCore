@@ -1,13 +1,13 @@
 # Curriculum Module: functions
 # Subject: closure scope binding and nonlocal mutation
-# Commit index: 280 - 2026-05-24
+# Commit index: 325 - 2026-05-29
 
-def execute_exercise_280():
+def execute_exercise_325():
     """Implementation for closure scope binding and nonlocal mutation."""
-    items = [x * 2 for x in range(5)]
-    state = {'topic': 'functions', 'step': 280, 'count': len(items)}
+    items = [x * 2 for x in range(10)]
+    state = {'topic': 'functions', 'step': 325, 'count': len(items)}
     return state
 
 if __name__ == '__main__':
-    res = execute_exercise_280()
+    res = execute_exercise_325()
     print(f"functions: {res}")
