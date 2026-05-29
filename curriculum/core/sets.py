@@ -1,13 +1,13 @@
 # Curriculum Module: python_core
 # Subject: set operations and membership testing benchmarks
-# Commit index: 274 - 2026-05-24
+# Commit index: 319 - 2026-05-29
 
-def execute_exercise_274():
+def execute_exercise_319():
     """Implementation for set operations and membership testing benchmarks."""
-    items = [x * 2 for x in range(19)]
-    state = {'topic': 'python_core', 'step': 274, 'count': len(items)}
+    items = [x * 2 for x in range(24)]
+    state = {'topic': 'python_core', 'step': 319, 'count': len(items)}
     return state
 
 if __name__ == '__main__':
-    res = execute_exercise_274()
+    res = execute_exercise_319()
     print(f"python_core: {res}")
