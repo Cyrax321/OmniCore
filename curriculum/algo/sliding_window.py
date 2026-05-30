@@ -1,13 +1,13 @@
 # Curriculum Module: algorithms
 # Subject: sliding window maximum with monotonic deque
-# Commit index: 289 - 2026-05-24
+# Commit index: 334 - 2026-05-30
 
-def execute_exercise_289():
+def execute_exercise_334():
     """Implementation for sliding window maximum with monotonic deque."""
-    items = [x * 2 for x in range(14)]
-    state = {'topic': 'algorithms', 'step': 289, 'count': len(items)}
+    items = [x * 2 for x in range(19)]
+    state = {'topic': 'algorithms', 'step': 334, 'count': len(items)}
     return state
 
 if __name__ == '__main__':
-    res = execute_exercise_289()
+    res = execute_exercise_334()
     print(f"algorithms: {res}")
