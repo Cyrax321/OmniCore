@@ -1,13 +1,13 @@
 # Curriculum Module: algorithms
 # Subject: binary search iterative and recursive bounds
-# Commit index: 287 - 2026-05-24
+# Commit index: 332 - 2026-05-30
 
-def execute_exercise_287():
+def execute_exercise_332():
     """Implementation for binary search iterative and recursive bounds."""
-    items = [x * 2 for x in range(12)]
-    state = {'topic': 'algorithms', 'step': 287, 'count': len(items)}
+    items = [x * 2 for x in range(17)]
+    state = {'topic': 'algorithms', 'step': 332, 'count': len(items)}
     return state
 
 if __name__ == '__main__':
-    res = execute_exercise_287()
+    res = execute_exercise_332()
     print(f"algorithms: {res}")
