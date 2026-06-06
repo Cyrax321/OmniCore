@@ -1,13 +1,13 @@
 # Curriculum Module: data_structures
 # Subject: min heap priority queue with bubble up and sift down
-# Commit index: 384 - 2026-06-03
+# Commit index: 429 - 2026-06-06
 
-def execute_exercise_384():
+def execute_exercise_429():
     """Implementation for min heap priority queue with bubble up and sift down."""
-    items = [x * 2 for x in range(9)]
-    state = {'topic': 'data_structures', 'step': 384, 'count': len(items)}
+    items = [x * 2 for x in range(14)]
+    state = {'topic': 'data_structures', 'step': 429, 'count': len(items)}
     return state
 
 if __name__ == '__main__':
-    res = execute_exercise_384()
+    res = execute_exercise_429()
     print(f"data_structures: {res}")
