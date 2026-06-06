@@ -1,13 +1,13 @@
 # Curriculum Module: control_flow
 # Subject: context manager implementation with contextlib
-# Commit index: 368 - 2026-05-31
+# Commit index: 413 - 2026-06-06
 
-def execute_exercise_368():
+def execute_exercise_413():
     """Implementation for context manager implementation with contextlib."""
-    items = [x * 2 for x in range(13)]
-    state = {'topic': 'control_flow', 'step': 368, 'count': len(items)}
+    items = [x * 2 for x in range(18)]
+    state = {'topic': 'control_flow', 'step': 413, 'count': len(items)}
     return state
 
 if __name__ == '__main__':
-    res = execute_exercise_368()
+    res = execute_exercise_413()
     print(f"control_flow: {res}")
