@@ -1,13 +1,13 @@
 # Curriculum Module: recursion
 # Subject: subsets generation using backtracking recursion
-# Commit index: 389 - 2026-06-04
+# Commit index: 434 - 2026-06-07
 
-def execute_exercise_389():
+def execute_exercise_434():
     """Implementation for subsets generation using backtracking recursion."""
-    items = [x * 2 for x in range(14)]
-    state = {'topic': 'recursion', 'step': 389, 'count': len(items)}
+    items = [x * 2 for x in range(19)]
+    state = {'topic': 'recursion', 'step': 434, 'count': len(items)}
     return state
 
 if __name__ == '__main__':
-    res = execute_exercise_389()
+    res = execute_exercise_434()
     print(f"recursion: {res}")
