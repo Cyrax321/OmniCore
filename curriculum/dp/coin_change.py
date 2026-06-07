@@ -1,13 +1,13 @@
 # Curriculum Module: dp
 # Subject: coin change minimum coins with bottom up table
-# Commit index: 394 - 2026-06-05
+# Commit index: 439 - 2026-06-07
 
-def execute_exercise_394():
+def execute_exercise_439():
     """Implementation for coin change minimum coins with bottom up table."""
-    items = [x * 2 for x in range(19)]
-    state = {'topic': 'dp', 'step': 394, 'count': len(items)}
+    items = [x * 2 for x in range(24)]
+    state = {'topic': 'dp', 'step': 439, 'count': len(items)}
     return state
 
 if __name__ == '__main__':
-    res = execute_exercise_394()
+    res = execute_exercise_439()
     print(f"dp: {res}")
