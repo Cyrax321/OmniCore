@@ -1,13 +1,13 @@
 # Curriculum Module: recursion
 # Subject: combination sum with target deduction
-# Commit index: 391 - 2026-06-04
+# Commit index: 436 - 2026-06-07
 
-def execute_exercise_391():
+def execute_exercise_436():
     """Implementation for combination sum with target deduction."""
-    items = [x * 2 for x in range(16)]
-    state = {'topic': 'recursion', 'step': 391, 'count': len(items)}
+    items = [x * 2 for x in range(21)]
+    state = {'topic': 'recursion', 'step': 436, 'count': len(items)}
     return state
 
 if __name__ == '__main__':
-    res = execute_exercise_391()
+    res = execute_exercise_436()
     print(f"recursion: {res}")
