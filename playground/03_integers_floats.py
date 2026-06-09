@@ -1,1 +1,16 @@
-# Corey Schafer Python: 03_integers_floats
+a = input("Enter Your name: ")
+print(a)
+print(a.lower())
+print(a.strip())
+print(a.replace("D","M"))
+print(len(a))
+print("\n")
+print(1/2)
+print(1//2)
+print(1*2)
+print(1**2)
+print(1+2)
+print(1-2)
+
+b = 2.000647
+print(round(b,4))
