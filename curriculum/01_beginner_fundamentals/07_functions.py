@@ -38,7 +38,7 @@ def multiply(a, b):
     # Inside the function, return `a * b`!
     return a * b
 
-
+mymultiply = multiply(3, 2)
 # ==========================================
 # TEST RUNNER (Do not modify!)
 # ==========================================
