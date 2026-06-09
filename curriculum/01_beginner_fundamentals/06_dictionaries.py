@@ -36,6 +36,7 @@ def practice_one():
     }
     # Using dictionary targeting, return their email string!
     return user_data["email"]
+    pass
 
 def practice_two():
     # TODO:
@@ -44,7 +45,8 @@ def practice_two():
     # Increase their "health" key to 100! (e.g. player["health"] = ...)
     player["health"] = 100
     # Return the whole player dictionary.
-    return player
+    return player 
+    pass
 
 
 # ==========================================
