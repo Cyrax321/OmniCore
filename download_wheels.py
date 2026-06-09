@@ -3,7 +3,7 @@ import json
 import os
 import ssl
 
-packages = ["pyttsx3", "pyobjc-core", "pyobjc-framework-Cocoa"]
+packages = ["pyttsx3", "pyobjc", "pyobjc-core", "pyobjc-framework-Cocoa"]
 dest_dir = "./wheels"
 os.makedirs(dest_dir, exist_ok=True)
 
