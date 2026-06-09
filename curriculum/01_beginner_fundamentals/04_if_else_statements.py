@@ -44,11 +44,11 @@ def practice_two(password):
     # TODO:
     # Write an if statement checking if the password exactly equals "Secret123"
     if password == "Secret123":
-        # If it does, return True. 
         return True
+    # If it does, return True. 
     else:
-        # Else, return False.
-        return False
+        return False 
+    # Else, return False.
 
 
 # ==========================================
