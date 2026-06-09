@@ -32,7 +32,7 @@ YOUR TURN (PRACTICE)
 def practice_one():
     # TODO: 
     # Create a list called `my_numbers` containing the numbers 10, 20, and 30.
-    my_numbers = [10, 20, 30]
+    my_numbers = [10,20,30]
     # Return it!
     return my_numbers
 
