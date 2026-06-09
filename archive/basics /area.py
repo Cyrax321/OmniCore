@@ -1,4 +1,3 @@
-pi = 3.14 
-r = int(input("enter the radius: "))
-area = pi * r**2
+r = float(input("enter the radius: "))
+area = 3.14 * r**2
 print(f"Area of the circle is : {area}")
