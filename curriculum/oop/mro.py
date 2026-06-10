@@ -1,13 +1,13 @@
 # Curriculum Module: oop
 # Subject: multiple inheritance and method resolution order
-# Commit index: 419 - 2026-06-06
+# Commit index: 464 - 2026-06-10
 
-def execute_exercise_419():
+def execute_exercise_464():
     """Implementation for multiple inheritance and method resolution order."""
-    items = [x * 2 for x in range(24)]
-    state = {'topic': 'oop', 'step': 419, 'count': len(items)}
+    items = [x * 2 for x in range(9)]
+    state = {'topic': 'oop', 'step': 464, 'count': len(items)}
     return state
 
 if __name__ == '__main__':
-    res = execute_exercise_419()
+    res = execute_exercise_464()
     print(f"oop: {res}")
