@@ -1,13 +1,13 @@
 # Curriculum Module: functions
 # Subject: variadic arguments unpack with args and kwargs
-# Commit index: 459 - 2026-06-09
+# Commit index: 504 - 2026-06-13
 
-def execute_exercise_459():
+def execute_exercise_504():
     """Implementation for variadic arguments unpack with args and kwargs."""
-    items = [x * 2 for x in range(24)]
-    state = {'topic': 'functions', 'step': 459, 'count': len(items)}
+    items = [x * 2 for x in range(9)]
+    state = {'topic': 'functions', 'step': 504, 'count': len(items)}
     return state
 
 if __name__ == '__main__':
-    res = execute_exercise_459()
+    res = execute_exercise_504()
     print(f"functions: {res}")
