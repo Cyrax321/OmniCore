@@ -10,7 +10,7 @@
 
 **OmniCore** is an accelerated, high-intensity curriculum repository designed to bridge the gap between foundational Python programming and advanced Machine Learning (ML) architecture. 
 
-It strips away the overhead of Jupyter Notebooks in favor of test-driven, raw Python executable quests—engineering your syntax natively into algorithmic intuition.
+It strips away  the overhead of Jupyter Notebooks in favor of test-driven, raw Python executable quests—engineering your syntax natively into algorithmic intuition.
 
 ---
 
