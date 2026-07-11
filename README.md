@@ -15,8 +15,8 @@ It strips away  the overhead of Jupyter Notebooks in favor of test-driven, raw P
 ---
 
 ## 🏆 Student Profile: Cyrax
-**Rank**: Python Adept  
-**Current XP**: `6,500 / 10,000`  
+**Rank**: Intermediate to Strong Python Developer  
+**Current XP**: `9,850 / 10,000`  
 **Milestones**:
 - [x] **Omni-Hero**: Mastered the Zero-to-Hero Foundation Protocol. (+1,000 XP)
 - [x] **Search Specialist**: Mastered the Universal Search Pattern. (+500 XP)
@@ -41,7 +41,7 @@ It strips away  the overhead of Jupyter Notebooks in favor of test-driven, raw P
 | **List Logic** | `[██████████]` | **Master** |
 | **Dict Lookups** | `[██████████]` | **Master** |
 | **Functions** | `[██████████]` | **Master** |
-| **Data Cleaning** | `[████████░░]` | **Veteran** |
+| **Data Cleaning** | `[██████████]` | **Master** |
 
 ---
 
@@ -173,4 +173,4 @@ The runner system utilizes a specialized ASCII telemetry protocol to report test
 ## 📅 Status: 2026-04-23
 - **Morning**: Debugged `NameError` in `func.py` and handled indentation issues in `for.py`.
 - **Afternoon**: Graduated from **Beginner Fundamentals**, built the **Cyber-Bank ATM**, and Passed the **Foundation Final Exam**.
-- **Current Milestone**: 🎓 **RANK UP**: `Python Adept`. Completed **Intermediary Quest 3: Feature Extraction**.
+- **Current Milestone**: 🎓 **RANK UP**: `Intermediate to Strong Python Developer`. Completed **Intermediary Quest 3: Feature Extraction**.
