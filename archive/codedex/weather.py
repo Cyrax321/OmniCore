@@ -14,13 +14,13 @@ Logical operators in Python include the and and or keywords. Which one should yo
 
 month = int(input("What's the month? Enter in numbers(1-12): "))
 
-if 1 <= month <= 3 :
+if month == 1 or month == 2 or month == 3 :
   print('Winter 🌨️')
-elif 4 <= month <= 6 :
-  print('Spring 🌱')
-elif 7 <= month <= 9 :
+elif month == 4 or month == 5 or month == 6 :
+   print('Spring 🌱')
+elif month == 7 or month == 8 or month == 9 :
   print('Summer 🌻')
-elif 10 <= month <= 12 :
+elif month == 10 or month == 11 or month == 12 :
   print('Autumn 🍂')
 else: 
   print('Invalid')
