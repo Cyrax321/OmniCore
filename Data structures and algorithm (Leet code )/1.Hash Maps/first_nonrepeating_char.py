@@ -9,6 +9,6 @@ def nonrepeat(string):
             return i 
     return -1 
 
-print(f" The first non repeating character is {nonrepeat('abcabc')}")
+print(f" The first non repeating character is {nonrepeat('geekforgeeks')}")
     
     
