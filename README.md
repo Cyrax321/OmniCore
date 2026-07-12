@@ -16,7 +16,7 @@ It strips away  the overhead of Jupyter Notebooks in favor of test-driven, raw P
 
 ## 🏆 Student Profile: Cyrax
 **Rank**: Intermediate to Strong Python Developer  
-**Current XP**: `9,850 / 10,000`  
+**Current XP**: `9,855 / 10,000`  
 **Milestones**:
 - [x] **Omni-Hero**: Mastered the Zero-to-Hero Foundation Protocol. (+1,000 XP)
 - [x] **Search Specialist**: Mastered the Universal Search Pattern. (+500 XP)
